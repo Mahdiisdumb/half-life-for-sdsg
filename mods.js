@@ -10,16 +10,20 @@ var iArgs = document.getElementById('iArgs');
 
 selectZip.addEventListener('change', function () {
   switch (selectZip.value) {
-    case './Half-Life Games/valve.zip':
+    case 'Half-Life':
       iArgs.value = '-dev 1 -game valve';
       break;
 
-    case './Half-Life Games/bshift.zip':
-      iArgs.value = '-dev 1 -game valve';
+    case 'Blue Shift':
+      iArgs.value = '-dev 1 -game bshift';
       break;
 
-    case './Half-Life Games/gearbox.zip':
+    case 'Opposing Force':
       iArgs.value = '-dev 1 -game gearbox';
+      break;
+
+    default:
+      iArgs.value = '';
       break;
   }
 });
