@@ -1,8 +1,9 @@
 zipMods = [
-  ['https://github.com/Mahdiisdumb/half-life-for-sdsg/releases/tag/ZIP', 'Half-Life',       214283501],
-  ['https://github.com/Mahdiisdumb/half-life-for-sdsg/releases/tag/ZIP', 'Blue Shift',      304000000],
-  ['https://github.com/Mahdiisdumb/half-life-for-sdsg/releases/tag/ZIP', 'Opposing Force',  221191140]
+  ['https://github.com/Mahdiisdumb/half-life-for-sdsg/releases/download/v1.0.0/valve.zip',   'Half-Life',       214283501],
+  ['https://github.com/Mahdiisdumb/half-life-for-sdsg/releases/download/v1.0.0/bshift.zip',  'Blue Shift',      304000000],
+  ['https://github.com/Mahdiisdumb/half-life-for-sdsg/releases/download/v1.0.0/gearbox.zip', 'Opposing Force',  221191140]
 ];
+
 pkgMods = [];
 
 var selectZip = document.getElementById('selectZip');
