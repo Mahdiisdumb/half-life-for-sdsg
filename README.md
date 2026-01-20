@@ -11,4 +11,4 @@ This is a **web playable port** of Half-Life (GoldSource) using:
 - Emscripten-compiled engine files
 - BrowserFS for virtual filesystem support
 
-Assets (game files) need to be provided separately — this project doesn’t ship proprietary game data. :contentReference[oaicite:1]{index=1}
+Assets (game files) need to be provided separately — this project doesn’t ship proprietary game data.
